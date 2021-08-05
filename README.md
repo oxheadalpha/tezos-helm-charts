@@ -1,2 +1,2 @@
 # tezos-helm-charts
-TQ Tezos Helm Chart Repo located at [https://tqtezos.github.io/tezos-helm-charts/](https://tqtezos.github.io/tezos-helm-charts/)
+Oxhead Alpha Helm Chart Repo located at [https://oxheadalpha.github.io/tezos-helm-charts/](https://oxheadalpha.github.io/tezos-helm-charts/)

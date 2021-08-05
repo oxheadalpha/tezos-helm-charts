@@ -2,6 +2,19 @@ apiVersion: v1
 entries:
   authenticated-rpc-tezos-chain:
   - apiVersion: v2
+    created: "2021-08-05T21:36:12.970096996Z"
+    description: A Helm chart for Tezos RPC authentication for a private chain
+    digest: c7816d70365b73299905715401b0f7edb9c10a8f253c5eaedce455c8f12fecc7
+    home: https://github.com/oxheadalpha/tezos-k8s
+    keywords:
+    - tezos
+    - blockchain
+    name: authenticated-rpc-tezos-chain
+    type: application
+    urls:
+    - https://oxheadalpha.github.io/tezos-helm-charts/authenticated-rpc-tezos-chain-5.0.2.tgz
+    version: 5.0.2
+  - apiVersion: v2
     created: "2021-08-05T19:33:42.182579085Z"
     description: A Helm chart for Tezos RPC authentication for a private chain
     digest: ed0396563a7d46f791cc45c7c81d85b4bcea3918e7d352badd037d41eb046925
@@ -106,6 +119,19 @@ entries:
     - https://tqtezos.github.io/tezos-helm-charts/authenticated-rpc-tezos-chain-2.0.0.tgz
     version: 2.0.0
   tezos-chain:
+  - apiVersion: v2
+    created: "2021-08-05T21:36:12.972239812Z"
+    description: A Helm chart for Tezos nodes on Kubernetes
+    digest: ce28ab70623e76d9f6600d6c8062026ae41515e6d410e98d03b05850b97fcafb
+    home: https://github.com/oxheadalpha/tezos-k8s
+    keywords:
+    - tezos
+    - blockchain
+    name: tezos-chain
+    type: application
+    urls:
+    - https://oxheadalpha.github.io/tezos-helm-charts/tezos-chain-5.0.2.tgz
+    version: 5.0.2
   - apiVersion: v2
     created: "2021-08-05T19:33:42.184131895Z"
     description: A Helm chart for Tezos nodes on Kubernetes
@@ -226,4 +252,4 @@ entries:
     urls:
     - https://tqtezos.github.io/tezos-helm-charts/tezos-chain-2.0.0.tgz
     version: 2.0.0
-generated: "2021-08-05T19:33:42.18165228Z"
+generated: "2021-08-05T21:36:12.969454192Z"

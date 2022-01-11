@@ -2,6 +2,19 @@ apiVersion: v1
 entries:
   authenticated-rpc-tezos-chain:
   - apiVersion: v2
+    created: "2022-01-11T02:52:00.332451627Z"
+    description: A Helm chart for Tezos RPC authentication for a private chain
+    digest: 21724a706d218ad58d95023fc8fb9bf3199171f06aeea715b9221fcd334d8921
+    home: https://github.com/oxheadalpha/tezos-k8s
+    keywords:
+    - tezos
+    - blockchain
+    name: authenticated-rpc-tezos-chain
+    type: application
+    urls:
+    - https://oxheadalpha.github.io/tezos-helm-charts/authenticated-rpc-tezos-chain-6.0.1.tgz
+    version: 6.0.1
+  - apiVersion: v2
     created: "2021-12-13T18:38:35.296833722Z"
     description: A Helm chart for Tezos RPC authentication for a private chain
     digest: 63399a465aa7cd13cf11a5d26f5b1cafe537883d66526ddaa375e94acf78390d
@@ -210,6 +223,19 @@ entries:
     - https://tqtezos.github.io/tezos-helm-charts/authenticated-rpc-tezos-chain-2.0.0.tgz
     version: 2.0.0
   tezos-chain:
+  - apiVersion: v2
+    created: "2022-01-11T02:52:00.333607878Z"
+    description: A Helm chart for Tezos nodes on Kubernetes
+    digest: 9d3f4d642d83abed838656a31b5e29e955b7c1214e49b51e6eeff0bfb6d1e55b
+    home: https://github.com/oxheadalpha/tezos-k8s
+    keywords:
+    - tezos
+    - blockchain
+    name: tezos-chain
+    type: application
+    urls:
+    - https://oxheadalpha.github.io/tezos-helm-charts/tezos-chain-6.0.1.tgz
+    version: 6.0.1
   - apiVersion: v2
     created: "2021-12-13T18:38:35.298373341Z"
     description: A Helm chart for Tezos nodes on Kubernetes
@@ -437,6 +463,16 @@ entries:
   tezos-faucet:
   - apiVersion: v2
     appVersion: 1.16.0
+    created: "2022-01-11T02:52:00.33387869Z"
+    description: Faucet for tezos
+    digest: 10939fa8315660307217178c17f66f1a21cd5f82840b2201535c2b367274f61e
+    name: tezos-faucet
+    type: application
+    urls:
+    - https://oxheadalpha.github.io/tezos-helm-charts/tezos-faucet-6.0.1.tgz
+    version: 6.0.1
+  - apiVersion: v2
+    appVersion: 1.16.0
     created: "2021-12-13T18:38:35.298787273Z"
     description: Faucet for tezos
     digest: 1572c152d4024f4f8b265265e66661b46268c855a2aa431cd6a49dbd9a7582b8
@@ -465,4 +501,4 @@ entries:
     urls:
     - https://oxheadalpha.github.io/tezos-helm-charts/tezos-faucet-5.3.3.tgz
     version: 5.3.3
-generated: "2021-12-13T18:38:35.296212274Z"
+generated: "2022-01-11T02:52:00.332012508Z"

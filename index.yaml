@@ -2,6 +2,19 @@ apiVersion: v1
 entries:
   authenticated-rpc-tezos-chain:
   - apiVersion: v2
+    created: "2022-02-10T22:05:42.792609774Z"
+    description: A Helm chart for Tezos RPC authentication for a private chain
+    digest: e324f68d8e0e72ef98511de0ee629e1cde81450323ff579fe1de25b28694e78e
+    home: https://github.com/oxheadalpha/tezos-k8s
+    keywords:
+    - tezos
+    - blockchain
+    name: authenticated-rpc-tezos-chain
+    type: application
+    urls:
+    - https://oxheadalpha.github.io/tezos-helm-charts/authenticated-rpc-tezos-chain-6.2.1.tgz
+    version: 6.2.1
+  - apiVersion: v2
     created: "2022-02-09T23:01:36.976317053Z"
     description: A Helm chart for Tezos RPC authentication for a private chain
     digest: 9e90f4b750a53f0ab7ce69ae43b33e118b0a709942e6fe49083fa040ada9a1a8
@@ -251,6 +264,16 @@ entries:
   pyrometer:
   - apiVersion: v2
     appVersion: 1.16.0
+    created: "2022-02-10T22:05:42.792849487Z"
+    description: Deploys pyrometer Tezos monitoring solution
+    digest: 87595dd212ccce210f1ef9cd228d93fee926fec8ac02a9173244020882fe4879
+    name: pyrometer
+    type: application
+    urls:
+    - https://oxheadalpha.github.io/tezos-helm-charts/pyrometer-6.2.1.tgz
+    version: 6.2.1
+  - apiVersion: v2
+    appVersion: 1.16.0
     created: "2022-02-09T23:01:36.976537055Z"
     description: Deploys pyrometer Tezos monitoring solution
     digest: 7dd724e68bb6ff7befa35b1cb673041c085c587a986cb69d2f8e84f06564ad2b
@@ -270,6 +293,19 @@ entries:
     - https://oxheadalpha.github.io/tezos-helm-charts/pyrometer-6.1.0.tgz
     version: 6.1.0
   tezos-chain:
+  - apiVersion: v2
+    created: "2022-02-10T22:05:42.794071454Z"
+    description: A Helm chart for Tezos nodes on Kubernetes
+    digest: dab8b9d302d384bc080384e718d927fee2aaccc4bd18f12008b8741072089acc
+    home: https://github.com/oxheadalpha/tezos-k8s
+    keywords:
+    - tezos
+    - blockchain
+    name: tezos-chain
+    type: application
+    urls:
+    - https://oxheadalpha.github.io/tezos-helm-charts/tezos-chain-6.2.1.tgz
+    version: 6.2.1
   - apiVersion: v2
     created: "2022-02-09T23:01:36.977779663Z"
     description: A Helm chart for Tezos nodes on Kubernetes
@@ -536,6 +572,16 @@ entries:
   tezos-faucet:
   - apiVersion: v2
     appVersion: 1.16.0
+    created: "2022-02-10T22:05:42.794324668Z"
+    description: Faucet for tezos
+    digest: 79f9f34222387cb0ea61d21f29a7bc580e9136900523f11af810a3287c45f046
+    name: tezos-faucet
+    type: application
+    urls:
+    - https://oxheadalpha.github.io/tezos-helm-charts/tezos-faucet-6.2.1.tgz
+    version: 6.2.1
+  - apiVersion: v2
+    appVersion: 1.16.0
     created: "2022-02-09T23:01:36.978014965Z"
     description: Faucet for tezos
     digest: e7ef64d6369db8017e4f24ebb6bb725e0f27d116ba5178f2483b5c5ed5f023b6
@@ -594,4 +640,4 @@ entries:
     urls:
     - https://oxheadalpha.github.io/tezos-helm-charts/tezos-faucet-5.3.3.tgz
     version: 5.3.3
-generated: "2022-02-09T23:01:36.97587105Z"
+generated: "2022-02-10T22:05:42.792121747Z"

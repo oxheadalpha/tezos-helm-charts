@@ -2,6 +2,19 @@ apiVersion: v1
 entries:
   authenticated-rpc-tezos-chain:
   - apiVersion: v2
+    created: "2022-05-11T03:48:22.173757689Z"
+    description: A Helm chart for Tezos RPC authentication for a private chain
+    digest: dd614f2536aae5f938269851c9d4b910a4faebfb75d17ab6aeacdfb1959c2ba1
+    home: https://github.com/oxheadalpha/tezos-k8s
+    keywords:
+    - tezos
+    - blockchain
+    name: authenticated-rpc-tezos-chain
+    type: application
+    urls:
+    - https://oxheadalpha.github.io/tezos-helm-charts/authenticated-rpc-tezos-chain-6.6.0.tgz
+    version: 6.6.0
+  - apiVersion: v2
     created: "2022-04-18T18:08:15.999659888Z"
     description: A Helm chart for Tezos RPC authentication for a private chain
     digest: 5c54ae16aa1787f92d93aaf647b687d7c3a3ee30dd444db3e2b5a3fe245f95f0
@@ -316,6 +329,16 @@ entries:
   pyrometer:
   - apiVersion: v2
     appVersion: 1.16.0
+    created: "2022-05-11T03:48:22.174029191Z"
+    description: Deploys pyrometer Tezos monitoring solution
+    digest: cde40136c66b8c919839216b635f33550e9d65912e4358cb6e4097884f15a094
+    name: pyrometer
+    type: application
+    urls:
+    - https://oxheadalpha.github.io/tezos-helm-charts/pyrometer-6.6.0.tgz
+    version: 6.6.0
+  - apiVersion: v2
+    appVersion: 1.16.0
     created: "2022-04-18T18:08:15.999921992Z"
     description: Deploys pyrometer Tezos monitoring solution
     digest: df95fa25e6da0ff5de00264a46b6dc6cbd97c9f4f1de758d818c06af30bea7e0
@@ -386,6 +409,16 @@ entries:
     version: 6.1.0
   snapshotEngine:
   - apiVersion: v2
+    created: "2022-05-11T03:48:22.1751195Z"
+    description: Produces filesystem artifacts (tarballs and snapshots) that Tezos
+      Nodes can use to sync quickly.
+    digest: e2f24e89398fd4d48ea81d900bc13cac9e4807df49d70d7be897030e212c552f
+    name: snapshotEngine
+    type: application
+    urls:
+    - https://oxheadalpha.github.io/tezos-helm-charts/snapshotEngine-6.6.0.tgz
+    version: 6.6.0
+  - apiVersion: v2
     created: "2022-04-18T18:08:16.000665801Z"
     description: Produces filesystem artifacts (tarballs and snapshots) that Tezos
       Nodes can use to sync quickly.
@@ -406,6 +439,19 @@ entries:
     - https://oxheadalpha.github.io/tezos-helm-charts/snapshotEngine-6.5.0.tgz
     version: 6.5.0
   tezos-chain:
+  - apiVersion: v2
+    created: "2022-05-11T03:48:22.176338909Z"
+    description: A Helm chart for Tezos nodes on Kubernetes
+    digest: 688fa64a807df11637225fb81f5152edf7023d39d3b1f8bb695972318835f286
+    home: https://github.com/oxheadalpha/tezos-k8s
+    keywords:
+    - tezos
+    - blockchain
+    name: tezos-chain
+    type: application
+    urls:
+    - https://oxheadalpha.github.io/tezos-helm-charts/tezos-chain-6.6.0.tgz
+    version: 6.6.0
   - apiVersion: v2
     created: "2022-04-18T18:08:16.001846615Z"
     description: A Helm chart for Tezos nodes on Kubernetes
@@ -737,6 +783,16 @@ entries:
   tezos-faucet:
   - apiVersion: v2
     appVersion: 1.16.0
+    created: "2022-05-11T03:48:22.176568411Z"
+    description: Faucet for tezos
+    digest: 19aa18dce754d8925dedbd373e0ea6ac6b27ccb293ca8e1bb382e29325a9820c
+    name: tezos-faucet
+    type: application
+    urls:
+    - https://oxheadalpha.github.io/tezos-helm-charts/tezos-faucet-6.6.0.tgz
+    version: 6.6.0
+  - apiVersion: v2
+    appVersion: 1.16.0
     created: "2022-04-18T18:08:16.002089118Z"
     description: Faucet for tezos
     digest: 201307ab6ace3fe3410f4dd6c8880d9840e01c76c830f5bcb92ece9a1dece992
@@ -845,4 +901,15 @@ entries:
     urls:
     - https://oxheadalpha.github.io/tezos-helm-charts/tezos-faucet-5.3.3.tgz
     version: 5.3.3
-generated: "2022-04-18T18:08:15.99816467Z"
+  tezos-reward-distributor:
+  - apiVersion: v2
+    appVersion: "10.0"
+    created: "2022-05-11T03:48:22.177107215Z"
+    description: A chart for tezos-reward-distributor
+    digest: baaebbf45cebfe2538f908905f14799aa884b7fda2619f7f11c3d3b9b1e8ca9b
+    name: tezos-reward-distributor
+    type: application
+    urls:
+    - https://oxheadalpha.github.io/tezos-helm-charts/tezos-reward-distributor-6.6.0.tgz
+    version: 6.6.0
+generated: "2022-05-11T03:48:22.172901482Z"

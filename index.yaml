@@ -2,6 +2,19 @@ apiVersion: v1
 entries:
   authenticated-rpc-tezos-chain:
   - apiVersion: v2
+    created: "2023-10-13T20:32:44.699438244Z"
+    description: A Helm chart for Tezos RPC authentication for a private chain
+    digest: 79606172cd239091cf77d6af4bc81b6199616f0807cd2fa82019e756129938f3
+    home: https://github.com/oxheadalpha/tezos-k8s
+    keywords:
+    - tezos
+    - blockchain
+    name: authenticated-rpc-tezos-chain
+    type: application
+    urls:
+    - https://oxheadalpha.github.io/tezos-helm-charts/authenticated-rpc-tezos-chain-6.23.2.tgz
+    version: 6.23.2
+  - apiVersion: v2
     created: "2023-10-05T23:47:19.014789875Z"
     description: A Helm chart for Tezos RPC authentication for a private chain
     digest: 430a563653dd47068e0bb91586e33f4c55ea161835f5ee6d5cd2e8c8f720ec1e
@@ -784,6 +797,16 @@ entries:
   pyrometer:
   - apiVersion: v2
     appVersion: 1.16.0
+    created: "2023-10-13T20:32:44.699879946Z"
+    description: Deploys pyrometer Tezos monitoring solution
+    digest: 543a422bc1e7a38105ad06201b9d26a3ec4368cee5a4fead1f7de27e66bce15e
+    name: pyrometer
+    type: application
+    urls:
+    - https://oxheadalpha.github.io/tezos-helm-charts/pyrometer-6.23.2.tgz
+    version: 6.23.2
+  - apiVersion: v2
+    appVersion: 1.16.0
     created: "2023-10-05T23:47:19.015543186Z"
     description: Deploys pyrometer Tezos monitoring solution
     digest: 49e01724bbb3a3b16ff308ea52a57fa230ec05339b6bd55bb9e65a1c2ed8c6cf
@@ -1214,6 +1237,16 @@ entries:
     version: 6.1.0
   snapshotEngine:
   - apiVersion: v2
+    created: "2023-10-13T20:32:44.700440648Z"
+    description: Produces filesystem artifacts (tarballs and snapshots) that Tezos
+      Nodes can use to sync quickly.
+    digest: a3326eb7aea765277b39e095fe1d8e4eaa89e1130480aefd9ec15dc6283c17a5
+    name: snapshotEngine
+    type: application
+    urls:
+    - https://oxheadalpha.github.io/tezos-helm-charts/snapshotEngine-6.23.2.tgz
+    version: 6.23.2
+  - apiVersion: v2
     created: "2023-10-05T23:47:19.016146395Z"
     description: Produces filesystem artifacts (tarballs and snapshots) that Tezos
       Nodes can use to sync quickly.
@@ -1594,6 +1627,19 @@ entries:
     - https://oxheadalpha.github.io/tezos-helm-charts/snapshotEngine-6.5.0.tgz
     version: 6.5.0
   tezos-chain:
+  - apiVersion: v2
+    created: "2023-10-13T20:32:44.702137455Z"
+    description: A Helm chart for Tezos nodes on Kubernetes
+    digest: 7b5a3cefdf6a8e57a268c48a667f10eddcaa431dba95f396a90267754ba6feb5
+    home: https://github.com/oxheadalpha/tezos-k8s
+    keywords:
+    - tezos
+    - blockchain
+    name: tezos-chain
+    type: application
+    urls:
+    - https://oxheadalpha.github.io/tezos-helm-charts/tezos-chain-6.23.2.tgz
+    version: 6.23.2
   - apiVersion: v2
     created: "2023-10-05T23:47:19.017847321Z"
     description: A Helm chart for Tezos nodes on Kubernetes
@@ -2393,6 +2439,16 @@ entries:
   tezos-faucet:
   - apiVersion: v2
     appVersion: 2.0.0
+    created: "2023-10-13T20:32:44.702782258Z"
+    description: Faucet for tezos
+    digest: 7cc0ed5d7a7ac5fbb7f0d7cfee9d5f8ed68c86cc0d04596bbad61096a1fef22d
+    name: tezos-faucet
+    type: application
+    urls:
+    - https://oxheadalpha.github.io/tezos-helm-charts/tezos-faucet-6.23.2.tgz
+    version: 6.23.2
+  - apiVersion: v2
+    appVersion: 2.0.0
     created: "2023-10-05T23:47:19.018363629Z"
     description: Faucet for tezos
     digest: 3fb6ad43dcd5e5d902696b701fbe31f1bfc9712a9288f474ef346f33c8db73c8
@@ -2864,6 +2920,16 @@ entries:
   tezos-proto-cruncher:
   - apiVersion: v2
     appVersion: 1.16.0
+    created: "2023-10-13T20:32:44.703114059Z"
+    description: A Helm chart for Kubernetes
+    digest: 1f113151dbefe626d65f82004c7ab520912ad055fa9e0448af733a83fe0d8b2d
+    name: tezos-proto-cruncher
+    type: application
+    urls:
+    - https://oxheadalpha.github.io/tezos-helm-charts/tezos-proto-cruncher-6.23.2.tgz
+    version: 6.23.2
+  - apiVersion: v2
+    appVersion: 1.16.0
     created: "2023-10-05T23:47:19.018715634Z"
     description: A Helm chart for Kubernetes
     digest: 5f84dd5d55b365267023a4fe65b670c3f50235813f107be4d8bb3d33e7abbf5c
@@ -3073,6 +3139,16 @@ entries:
     - https://oxheadalpha.github.io/tezos-helm-charts/tezos-proto-cruncher-6.14.0.tgz
     version: 6.14.0
   tezos-reward-distributor:
+  - apiVersion: v2
+    appVersion: "10.0"
+    created: "2023-10-13T20:32:44.703558661Z"
+    description: A chart for tezos-reward-distributor
+    digest: 22118991100dfaa880534765801ca9a4bafc468bd924e4dd21c252a8976fac0b
+    name: tezos-reward-distributor
+    type: application
+    urls:
+    - https://oxheadalpha.github.io/tezos-helm-charts/tezos-reward-distributor-6.23.2.tgz
+    version: 6.23.2
   - apiVersion: v2
     appVersion: "10.0"
     created: "2023-10-05T23:47:19.019148241Z"
@@ -3433,4 +3509,4 @@ entries:
     urls:
     - https://oxheadalpha.github.io/tezos-helm-charts/tezos-reward-distributor-6.6.0.tgz
     version: 6.6.0
-generated: "2023-10-05T23:47:19.014205266Z"
+generated: "2023-10-13T20:32:44.694598823Z"
